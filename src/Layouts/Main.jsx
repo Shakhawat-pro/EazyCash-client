@@ -1,8 +1,10 @@
 import NavBar from "../Pages/Shared/NavBar/NavBar";
+import TopNav from "../Pages/Shared/NavBar/TopNav";
 
 const Main = () => {
     return (
-        <div className="bg-base-200">
+        <div className="">
+            <TopNav></TopNav>
             <NavBar></NavBar>
 
         </div>
