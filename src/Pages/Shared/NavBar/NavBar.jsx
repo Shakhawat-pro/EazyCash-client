@@ -12,7 +12,7 @@ const NavBar = () => {
     };
 
     return (
-        <div className="btm-nav nav bottom-5 shadow-lg w-11/12 h-[72px] rounded-xl max-w-[1200px] mx-auto ">
+        <div className="btm-nav nav bottom-2 sm:bottom-5 shadow-lg w-11/12 h-[72px] rounded-xl max-w-[1200px] mx-auto ">
             <NavLink to={'/'}>
                 <IoHomeOutline className="text-2xl"/>
                 <span className="btm-nav-label">Home</span>

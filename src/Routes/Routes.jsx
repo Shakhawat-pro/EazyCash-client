@@ -4,6 +4,7 @@ import Register from "../Pages/Register/Register";
 import Main from "../Layouts/Main";
 import Home from "../Pages/Home/Home";
 import Statics from "../Pages/Statics/Statics";
+import Profile from "../Pages/Profile/Profile";
 
 const router = createBrowserRouter([
     {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
             {
                 path:'/statics',
                 element: <Statics></Statics>
+            },
+            {
+                path:'/profile',
+                element: <Profile></Profile>
             },
             {
                 path: '/login',
