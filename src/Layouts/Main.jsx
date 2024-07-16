@@ -1,8 +1,10 @@
+import NavBar from "../Pages/Shared/NavBar/NavBar";
 
 const Main = () => {
     return (
-        <div>
-            Main            
+        <div className="bg-base-200">
+            <NavBar></NavBar>
+
         </div>
     );
 };

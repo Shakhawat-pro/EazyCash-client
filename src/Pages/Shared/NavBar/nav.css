@@ -1,0 +1,8 @@
+.nav{
+    box-shadow: 1px 2px 10px black;
+    padding: 3px 15px;
+}
+.nav a.active{
+    border-top: none;
+    border-bottom: 2px solid;
+}
